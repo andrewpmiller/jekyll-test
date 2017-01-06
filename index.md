@@ -9,20 +9,20 @@
 ## Mad Meta Data
 
 ### Versions
-- {{ site.github.versions }}
-- jekyll: {{ site.github.jekyll }}
-- kramdown: {{ site.github.kramdown }}
-- liquid: {{ site.github.liquid }}
-- maruku: {{ site.github.maruku }}
-- rdiscount: {{ site.github.rdiscount }}
-- redcarpet: {{ site.github.redcarpet }}
-- RedCloth: {{ site.github.RedCloth }}
-- jemoji: {{ site.github.jemoji }}
-- jekyll-mentions: {{ site.github.jekyll-mentions }}
-- jekyll-redirect-from: {{ site.github.jekyll-redirect-from }}
-- jekyll-sitemap: {{ site.github.jekyll-sitemap }}
-- github-pages: {{ site.github.github-pages }}
-- ruby: {{ site.github.ruby }}
+
+- jekyll: {{ site.github.versions.jekyll }}
+- kramdown: {{ site.github.versions.kramdown }}
+- liquid: {{ site.github.versions.liquid }}
+- maruku: {{ site.github.versions.maruku }}
+- rdiscount: {{ site.github.versions.rdiscount }}
+- redcarpet: {{ site.github.versions.redcarpet }}
+- RedCloth: {{ site.github.versions.RedCloth }}
+- jemoji: {{ site.github.versions.jemoji }}
+- jekyll-mentions: {{ site.github.versions.jekyll-mentions }}
+- jekyll-redirect-from: {{ site.github.versions.jekyll-redirect-from }}
+- jekyll-sitemap: {{ site.github.versions.jekyll-sitemap }}
+- github-pages: {{ site.github.versions.github-pages }}
+- ruby: {{ site.github.versions.ruby }}
 
 ### Other stuff
 - hostname: {{ site.github.hostname }}
