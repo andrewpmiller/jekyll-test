@@ -14,6 +14,8 @@ baseurl: /jekyll  # This makes the index page URL localhost:4000/cms/ Remember: 
 # version:             1.0.0
 
 # Conversion
+kramdown:
+  input: GFM
 markdown:    kramdown
 highlighter: rouge
 lsi:         false
