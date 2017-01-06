@@ -29,4 +29,6 @@ incremental: false
 # baseurl: / # does not include hostname
 # show_dir_listing: false
 
-repository: <andrewpmiller>/<jekyll-test
+repository: andrewpmiller/jekyll-test
+github:
+  url: http://localhost:4000

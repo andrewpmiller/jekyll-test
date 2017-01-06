@@ -1,9 +1,10 @@
 ---
 title: Meta
-permalink: /meta
+layout: default
+permalink: /meta/
 ---
 
-## Meta Data for {{ site.github.project_title }}
+## Meta Data for {{ site.repository }}
 
 ### Versions
 
