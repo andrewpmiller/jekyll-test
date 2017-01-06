@@ -1,6 +1,6 @@
 ---
 title: Meta
-permalink: /meta/
+permalink: /meta
 ---
 
 ## Meta Data for {{ site.github.project_title }}

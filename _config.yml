@@ -1,5 +1,5 @@
 # Setup
-title: Gymnasium CMS
+title: Jekyll Test
 #url: "http://gymnasium.github.io/cms/"
 baseurl: /jekyll  # This makes the index page URL localhost:4000/cms/ Remember: Omit the trailing slash!
 
