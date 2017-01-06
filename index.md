@@ -29,7 +29,6 @@
 - pages_hostname: {{ site.github.pages_hostname }}
 - api_url: {{ site.github.api_url }}
 - environment: {{ site.github.environment }}
-- public_repositories: {{ site.github.public_repositories }}
 - organization_members: {{ site.github.organization_members }}
 - build_revision: {{ site.github.build_revision }}
 - project_title: {{ site.github.project_title }}
@@ -51,5 +50,4 @@
 - is_project_page: {{ site.github.is_project_page }}
 - show_downloads: {{ site.github.show_downloads }}
 - url: {{ site.github.url }}
-- contributors: {{ site.github.contributors }}
 - releases: {{ site.github.releases }}
