@@ -2,4 +2,4 @@
 title: {{ site.github.project_title }}
 ---
 
-[meta]({{ site.baseurl }}/meta.html)
+[meta]({{ site.baseurl }}/meta/)
