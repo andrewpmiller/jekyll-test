@@ -9,7 +9,7 @@
 ## Mad Meta Data
 
 ### Versions
-
+- {{ site.github.versions }}
 - jekyll: {{ site.github.jekyll }}
 - kramdown: {{ site.github.kramdown }}
 - liquid: {{ site.github.liquid }}
