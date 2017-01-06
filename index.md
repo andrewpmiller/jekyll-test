@@ -1,5 +1,5 @@
 ---
-title: site.github.project_title
+title: {{ site.github.project_title }}
 ---
 
-[meta](/meta/)
+[meta]({{ site.baseurl }}/meta/)
