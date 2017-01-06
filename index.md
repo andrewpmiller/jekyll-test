@@ -1,3 +1,7 @@
+---
+title: This is the page title
+---
+
 # The project is called {{ site.github.project_title }}
 
 ## My Repos
