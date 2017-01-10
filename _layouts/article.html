@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+
+    </head>
+    <body class="w-100 bg-light-gray sans-serif">
+        <header>
+            <nav class="pa3 pa4-ns">
+                <a class="link dim black b f6 f5-ns dib mr3" href="{{ site.baseurl }}/" title="Home">presequences</a>
+                <a class="link dim gray    f6 f5-ns dib mr3" href="{{ site.baseurl }}/article" title="Article">Article</a>
+
+            </nav>
+        </header>
+
+        <main>
+
+            <article>
+              <header class="bg-moon-gray sans-serif">
+                <div class="mw9 center pa4 pt5-ns ph7-l">
+                  <time class="f6 mb2 dib ttu tracked"><small>{{ page.date | date_to_long_string }}</small></time>
+                  <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+                    <span class="bg-black-90 lh-copy white pa1 tracked-tight">
+                      {{ page.title }}
+                    </span>
+                  </h3>
+                  <h4 class="f3 fw1 serif i">{{ page.subtitle }}</h4>
+                </div>
+              </header>
+              <div class="pa4 ph7-l serif mw9-l center">
+                  <div class="f5 f4-ns lh-copy measure">
+                      {{ content }}
+                  </div>
+              </div>
+            </article>
+
+        </main>
+    </body>
+</html>

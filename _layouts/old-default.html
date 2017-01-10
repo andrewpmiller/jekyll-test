@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+    </head>
+    <body class="w-100 bg-light-gray sans-serif">
+        <header>
+            <nav class="pa3 pa4-ns">
+                <a class="link dim black b f6 f5-ns dib mr3" href="{{ site.baseurl }}/" title="Home">presequences</a>
+                <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Home">Home</a>
+                <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">About</a>
+                <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Store">Store</a>
+                <a class="link dim gray    f6 f5-ns dib" href="#" title="Contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <article class="pa3 pa5-ns">
+
+                <h1 class="f3 f1-m f-headline-l">{{ page.title }}</h1>
+                {{ content }}
+
+            </article>
+        </main>
+    </body>
+</html>
