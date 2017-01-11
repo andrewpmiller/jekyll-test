@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="{{site.baseurl}}/css/simple.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Just another blog">
+        <meta name="author" content="Andrew Miller">
+    </head>
+
+    <body>
+        <header id="brand">
+                <div class="logo">
+                    <a href="{{ site.baseurl }}/" title="Home"><img alt="Presequences" srcset="{{site.baseurl}}/img/logo-white.svg" src="img/logo-white.png" role="heading"></a>
+                </div>
+        </header>
+        <main>
+            <article>
+                <header class="title">
+                    <time>{{ page.date | date: "%x" }}</time>
+                    <h1>{{ page.title }}</h1>
+                </header>
+                {{ content }}
+            </article>
+
+
+        </main>
+
+        <footer>
+            <p><small>© 2017 Andrew Miller</a></small></p>
+        </footer>
+
+
+    </body>
+    </html>

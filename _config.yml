@@ -2,6 +2,7 @@
 title: Jekyll Test
 #url: "http://presequences.com/jekyll-test/"
 baseurl: /jekyll-test  # This makes the index page URL localhost:4000/cms/ Remember: Omit the trailing slash!
+permalink: /blog/:year/:month/:day/:title/
 
 # collections:
 #     events:
@@ -14,13 +15,13 @@ baseurl: /jekyll-test  # This makes the index page URL localhost:4000/cms/ Remem
 # version:             1.0.0
 
 # Conversion
-kramdown:
-  input: GFM
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
+# kramdown:
+#   input: GFM
+# markdown:    kramdown
+# highlighter: rouge
+# lsi:         false
+# excerpt_separator: "\n\n"
+# incremental: false
 
 # Serving
 # detach:  false

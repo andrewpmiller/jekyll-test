@@ -1,6 +1,14 @@
+
 /* ================================================================= */
 
 /* ================================================================= */
+
+/* Reset */
+body, h1, h2, h3, h4, h5, h6, dl, ol, ul, p,
+button, input, select, textarea {
+  margin: 0;
+}
+
 
 html {
   font: 100% serif;
@@ -9,14 +17,13 @@ html {
 body {
   color: #222;
   background: #fff;
-  margin: 0;
   font-family: "Frank Ruhl Libre",Georgia, serif;
   }
 
 
 html,
 body {
-  height: 100%;
+    height: 100%;
   }
 
 /* links / general */
@@ -35,6 +42,7 @@ a:focus {
 article {
         padding-left: 2em;
         padding-right: 2em;
+        max-width: 32em;
 }
 
 img,
@@ -49,38 +57,48 @@ ul, dl {
     line-height: 1.5;
     font-size: 1.2rem;
     font-weight: 400;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 
-time { color: #222;
-    font-size: 0.9rem;}
+time {
+    color: #222;
+    font-family: "Consolas", "Menlo", "Monaco", "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+}
 
 
 h1 {
     font-size: 2.9em;
     font-weight: 900;
+    margin-top: 0.2em;
 }
 h2 {
     font-size: 2.3em;
     font-weight: 900;
+    margin-top: 0.2em;
 }
 h3 {
     font-size: 2.1em;
     font-weight: 900;
+    margin-top: 0.2em;
 }
 
 h4 {
     font-size: 1.7em;
     font-weight: 700;
+    margin-top: 0.2em;
 }
 
 
 small {
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 #brand {
-    background-color: #00a2de;
+    /*background-color: #00a2de;*/
+    background-color: #ddd;
 }
 
 footer {
@@ -99,6 +117,35 @@ footer {
   max-width: 11em;
   }
 
+.title {
+padding-top: 1em;
+line-height: 1.15;
+padding-bottom: 1em;
+}
+.post_listitem time,
+.post_listitem dd,
+.post_listitem dt,
+.post_listitem dl
+ {
+    margin: 0;
+}
+
+.post_listitem {
+    line-height: 1.2;
+    padding-bottom: 2em;
+}
+
+.post_subtitle {
+    font-size: 1em;
+    padding-top: 0.2em;
+}
+
+.post_title {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+
 @media (min-width: 48em) {
     .logo {
       padding-top: 0.3em;
@@ -111,9 +158,10 @@ footer {
 
     article {
         padding-top: 1em;
-        padding-bottom: 1em;
+        padding-bottom: 4em;
         padding-left: 8em;
         padding-right: 8em;
+        max-width: 40em;
     }
 
     p,
@@ -125,19 +173,23 @@ footer {
     h1 {
         font-size: 4.1em;
         font-weight: 900;
+        margin-top: 0.3em;
     }
     h2 {
-        font-size: 2.8em;
+        font-size: 2.3em;
         font-weight: 900;
+        margin-top: 0.6em;
     }
     h3 {
-        font-size: 2.6em;
+        font-size: 1.9em;
         font-weight: 900;
+        margin-top: 0.5em;
     }
 
     h4 {
-        font-size: 1.9em;
+        font-size: 1.6em;
         font-weight: 700;
+        margin-top: 0.4em;
     }
   }
 
