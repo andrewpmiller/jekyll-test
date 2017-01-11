@@ -13,21 +13,18 @@
     <body>
         <header id="brand">
                 <div class="logo">
-                    <a href="#" title="Home"><img alt="Presequences" srcset="{{site.baseurl}}/img/logo-white.svg" src="img/logo-white.png" role="heading"></a>
+                    <a href="{{ site.baseurl }}/" title="Home"><img alt="Presequences" srcset="{{site.baseurl}}/img/logo-white.svg" src="img/logo-white.png" role="heading"></a>
                 </div>
         </header>
         <main>
             <article>
-                <header>
-                    <h1>{{ page.title }}</h1>
-                </header>
                 {{ content }}
             </article>
 
 
         </main>
 
-        <footer id="contentinfo">
+        <footer>
             <p><small>© 2017 Andrew Miller</a></small></p>
         </footer>
 

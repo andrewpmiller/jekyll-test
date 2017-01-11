@@ -11,7 +11,6 @@ body {
   background: #fff;
   margin: 0;
   font-family: "Frank Ruhl Libre",Georgia, serif;
-  font-size: 16px;
   }
 
 
@@ -34,10 +33,8 @@ a:focus {
 
 
 article {
-        /*padding-top: 1rem;*/
-        /*padding-bottom: 1rem;*/
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2em;
+        padding-right: 2em;
 }
 
 img,
@@ -46,53 +43,51 @@ video {
 }
 
 p,
-ul,
-ol {
+ol,
+ul, dl {
     max-width: 32em;
     line-height: 1.5;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 2em; }
-
-
-/*time { color: #aaa; }*/
-
-footer {
-    padding-left: 8rem;
-    padding-right: 8rem;
 }
 
+
+time { color: #222;
+    font-size: 0.9rem;}
+
+
 h1 {
-    font-size: 2.8rem;
+    font-size: 2.9em;
     font-weight: 900;
 }
 h2 {
-    font-size: 2.3rem;
+    font-size: 2.3em;
     font-weight: 900;
 }
 h3 {
-    font-size: 2.1rem;
+    font-size: 2.1em;
     font-weight: 900;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.7em;
     font-weight: 700;
 }
 
 
 small {
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
 #brand {
     background-color: #00a2de;
 }
 
-#contentinfo {
+footer {
     background-color: #ddd;
-    color: #999;
-    font-weight: 400;
+    color: #959595;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .logo {
@@ -103,6 +98,7 @@ small {
 .logo img {
   max-width: 11em;
   }
+
 @media (min-width: 48em) {
     .logo {
       padding-top: 0.3em;
@@ -112,29 +108,35 @@ small {
     .logo img {
       max-width: 20em;
       }
-    article {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 8rem;
-        padding-right: 8rem;
 
+    article {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 8em;
+        padding-right: 8em;
     }
-    p,ul,ol,li { font-size: 1.3rem; }
+
+    p,
+    ul,
+    ol, dl {
+        font-size: 1.3rem;
+    }
+
     h1 {
-        font-size: 3.6rem;
+        font-size: 4.1em;
         font-weight: 900;
     }
     h2 {
-        font-size: 2.8rem;
+        font-size: 2.8em;
         font-weight: 900;
     }
     h3 {
-        font-size: 2.6rem;
+        font-size: 2.6em;
         font-weight: 900;
     }
 
     h4 {
-        font-size: 1.9rem;
+        font-size: 1.9em;
         font-weight: 700;
     }
   }
@@ -146,7 +148,9 @@ small {
 
 .highlight {
     font-family: "Consolas", "Menlo", "Monaco", "Courier New", Courier, monospace;
-    font-size: 0.9rem;
+    font-size: 1.2em;
+    padding: 1em;
+    max-width: 32em;
     overflow: scroll;
 }
 
