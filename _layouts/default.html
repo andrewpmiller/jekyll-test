@@ -21,6 +21,10 @@
                 {{ content }}
             </article>
 
+{% if site.debug %}
+    {% include debug.html %}
+{% endif %}
+
 
         </main>
 

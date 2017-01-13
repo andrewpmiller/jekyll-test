@@ -4,6 +4,7 @@ title: Jekyll Test
 baseurl: /jekyll-test  # This makes the index page URL localhost:4000/cms/ Remember: Omit the trailing slash!
 permalink: /blog/:year/:month/:day/:title/
 
+debug: true
 # collections:
 #     events:
 #         output: true

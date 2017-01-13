@@ -5,6 +5,9 @@
         <title>{{ page.title }}</title>
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="{{site.baseurl}}/css/simple.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/css/prism.css">
+        <script type="text/javascript" src="{{site.baseurl}}/js/prism.js">
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Just another blog">
         <meta name="author" content="Andrew Miller">
@@ -25,7 +28,9 @@
                 {{ content }}
             </article>
 
-
+            {% if site.debug %}
+                {% include debug.html %}
+            {% endif %}
         </main>
 
         <footer>
