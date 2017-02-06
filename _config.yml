@@ -5,21 +5,15 @@ baseurl: /jekyll-test  # This makes the index page URL localhost:4000/cms/ Remem
 permalink: /blog/:year/:month/:day/:title/
 
 debug: true
-# collections:
-#     events:
-#         output: true
-#         permalink: /cms/events/
-
-
-# Custom vars
-
-# version:             1.0.0
 
 # Conversion
-# kramdown:
-#   input: GFM
-# markdown:    kramdown
-# highlighter: rouge
+markdown: kramdown
+
+kramdown:
+    input: GFM
+
+highlighter: rouge
+
 # lsi:         false
 # excerpt_separator: "\n\n"
 # incremental: false
