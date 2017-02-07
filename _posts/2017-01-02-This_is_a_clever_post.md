@@ -1,6 +1,6 @@
 ---
 title: This is a clever post
-subtitle: As if there's a clever subititle for that
+subtitle: Using LoRA instead of Wifi to connect an army of sensors and bots to a device that brokers the network connection to the internet.
 layout: article
 date: 2017-01-02
 ---

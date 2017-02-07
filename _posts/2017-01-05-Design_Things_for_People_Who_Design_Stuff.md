@@ -1,6 +1,6 @@
 ---
 title: Design Things for People Who Design Stuff
-subtitle: How many times can one title say the word design?
+subtitle: Simple directions to set up an ESP8266 web server that activates only when it's moved.
 layout: article
 date: 2017-01-05
 ---
